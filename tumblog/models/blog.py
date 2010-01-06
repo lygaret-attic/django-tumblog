@@ -1,5 +1,5 @@
 from django.db import models
-from utils.fields import AutoMarkdownTextField
+from autofields.fields import AutoMarkdownTextField
 from tagging.models import Tag
 from datetime import datetime
 

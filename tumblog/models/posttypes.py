@@ -1,6 +1,6 @@
 from django.db import models
 from tumblog.models import Post
-from utils.fields import AutoMarkdownTextField
+from autofields.fields import AutoMarkdownTextField
 from django.conf import settings
 from sorl.thumbnail.fields import ImageWithThumbnailsField
 

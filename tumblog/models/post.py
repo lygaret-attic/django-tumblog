@@ -7,7 +7,7 @@ from datetime import datetime
 from tagging.models import Tag
 from tagging.fields import TagField
 
-from utils.fields import AutoSlugField
+from autofields.fields import AutoSlugField
 from tumblog.managers import PublishedPostManager
 from tumblog.models import Blog
 
