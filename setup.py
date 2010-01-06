@@ -15,6 +15,6 @@ setup(
             'tumblog.templatetags',
             'tumblog.urls',
             'tumblog.views',
-            'tumtools',
+            'tumblog.tools',
         ]
 )
